@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.item.ItemDetailsFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="200px"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2px"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/cart_button"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_gravity="right"
+                android:background="@drawable/cart_foreground"/>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_dots"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="jksfd this the content of the text view in the sdfsdf sdfsdf"
+                android:layout_height="50dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Add to Cart" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Buy Now" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="this is the description of the item.sdfsdfsdfsdfsdfsdfsd.sdfsdfsd.sdfsdfsdfsfsdf" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

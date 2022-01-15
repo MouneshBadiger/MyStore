@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="62dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:orientation="vertical" >
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="20px">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+                   <ImageView
+                       android:id="@+id/imageView"
+                       android:layout_width="250px"
+                       android:layout_height="250px"
+                       android:src="@drawable/shirt1" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical"
+                       android:padding="10px">
+                       <TextView
+                           android:id="@+id/text_home11"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="@string/app_name"
+                           android:textSize="15sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10px">
+                            <TextView
+                                android:id="@+id/text_home111"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Quantity: "
+                                android:textSize="10sp" />
+                            <TextView
+                                android:id="@+id/text_home121"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:padding="10px"
+                           android:gravity="end">
+                           <TextView
+                               android:id="@+id/text_home112"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Price:"
+                               android:textSize="10sp" />
+                           <TextView
+                               android:id="@+id/text_home123"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="12341.83"
+                               android:textSize="10sp" />
+                       </LinearLayout>
+                   </LinearLayout>
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="250px"
+                        android:layout_height="250px"
+                        android:src="@drawable/shirt1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10px">
+                        <TextView
+                            android:id="@+id/text_home115"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:textSize="15sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10px">
+                            <TextView
+                                android:id="@+id/text_home141"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Quantity: "
+                                android:textSize="10sp" />
+                            <TextView
+                                android:id="@+id/text_home1121"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="10px"
+                            android:gravity="end">
+                            <TextView
+                                android:id="@+id/text_home122"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:"
+                                android:textSize="10sp" />
+                            <TextView
+                                android:id="@+id/text_home223"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12341.83"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
